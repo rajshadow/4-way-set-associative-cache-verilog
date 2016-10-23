@@ -3,7 +3,7 @@
 
 Verilog implementation of a 4-way Set associative phased cache with a write buffer (write) policy and FIFO replacement policy
 
-A multicycle datapath design has been for the implementing the above mentioned cache.
+A multicycle datapath design has been used for the implementing the above mentioned cache.
 There are 4 states in total (0,1,2 and 3) and transition between the states is done in the CtrlCkt module.
 
 State 0 - tag comparison to determine cache hit or cache miss
